@@ -1,1 +1,1 @@
-# Hi 👋🏾 My name is Courtney and this is my Circleci project
+# Hi 👋🏾 My name is Courtney and this is my CircleCi project
