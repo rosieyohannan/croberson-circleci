@@ -10,7 +10,7 @@ Workspaces are only stored for up to 15 days and cannot be shared by pipeline ru
 
 A common approach to using workspaces is to pass generated version numbers from a build job to a deploy job. However, be specific about what persists in work data to avoid storing it in subsequent jobs you don't need.
 
-<img src="https://github.com/coro121/croberson-circleci/blob/main/Media/reusingworkspaces.png?raw=true" alt="Workspaces strategy workflow">
+<img src="https://github.com/coro121/croberson-circleci/blob/main/Media/reusingworkspaces.png?raw=true" alt="Workspaces strategy workflow" height="500" width="800">
 
 ## Caching
 
@@ -18,7 +18,7 @@ Caching persists data between the same job in different workflow builds. It allo
 
 For example, package dependencies managers do not have to re-download everything on every build. It will only need to download new dependencies. Keep in mind that caching is global within a project. If it is saved on a branch, make sure it is safe to run on other branches.
 
-<img src="https://github.com/coro121/croberson-circleci/blob/main/Media/cachingstrategy.png?raw=true" alt="caching strategy workflow" />
+<img src="https://github.com/coro121/croberson-circleci/blob/main/Media/cachingstrategy.png?raw=true" alt="caching strategy workflow" height="500" width="800" />
 
 ## Additional Information
 
